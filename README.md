@@ -68,6 +68,9 @@ npm run dev
 
 The application will be available at http://localhost:5173.
 
+## License
+This project is licensed under the MIT License.
+
 ## 👤 Author
 **Oğuzhan Bilgin**
 - [Github](https://github.com/oguzbilgin)
