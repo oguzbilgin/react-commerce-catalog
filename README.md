@@ -48,15 +48,28 @@ Business logic such as filtering, sorting, and pagination is intentionally abstr
 
 ```text
 src/
- ├── components/        # Reusable UI components
- ├── pages/             # Route-level pages
- ├── hooks/             # Custom hooks (business logic)
- ├── context/           # Global state management
- ├── layouts/           # Shared layout components
- ├── types/             # TypeScript types
- ├── constants/         # Shared constants
- ├── router.tsx         # Application routes
- └── main.tsx           # Application entry point
+├── components/
+│ ├── Cart.tsx
+│ └── ProductCard.tsx
+├── constants/
+│ ├── constants.ts
+├── context/
+│ ├── CartContext.tsx
+├── hooks/
+│ ├── useDebounce.tsx
+│ └── useFetch.tsx
+| └── useProductList.tsx
+├── layouts/
+│ └── AppLayout.tsx
+├── pages/
+│ └── Home.tsx
+│ └── ProductDetails.tsx
+│ └── Products.tsx
+├── types/
+│ └── products.ts
+└── index.css
+└── main.tsx
+└── router.tsx
 ```
  
 ## Getting Started
